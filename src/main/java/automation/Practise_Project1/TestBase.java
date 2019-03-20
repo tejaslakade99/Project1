@@ -57,6 +57,7 @@ public class TestBase {
 				// TODO Auto-generated catch block
 				log.error("setup.properties failed to load in File Input Stream Object!!!");
 				e.printStackTrace();
+				log.info("Master Change - Git");
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
