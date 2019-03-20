@@ -35,7 +35,7 @@ public class Demo1_Test extends TestBase {
 		
 		readsetupprop();
 		driver = LaunchWebBrowser();
-
+log.info("Clone Commit to Remote");
 		// Launch URL and maximize the window
 		driver.get(URL);
 		log.info("URL: " + URL + " Launched");
