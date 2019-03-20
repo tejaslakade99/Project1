@@ -1,0 +1,19 @@
+1552448955585	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Pratik\\AppData\\Local\\Temp\\rust_mozprofile.3iYfsfux9SIR"
+1552448956943	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1552448957264	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.isFile]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2334
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2686
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2581
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2159
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:66
+1552448957266	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1552448959670	addons.xpi	WARN	Can't get modified time of C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1491: TypeError: addon is null
+1552448960067	Marionette	INFO	Listening on port 60227
+1552448960514	Marionette	WARN	TLS certificate errors will be ignored for this session

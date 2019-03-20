@@ -1,0 +1,8 @@
+automation\Practise_Project1\DB_Test.class
+automation\Practise_Project1\Demo1_Test.class
+automation\Practise_Project1\AssertDemo_Test.class
+automation\Practise_Project1\AppTest.class
+extentReports\ExtentReporterNG.class
+listeners\Listeners.class
+stepDefinition\StepDefinition_QAClick.class
+testCucumber\Cucum_TestRunner.class

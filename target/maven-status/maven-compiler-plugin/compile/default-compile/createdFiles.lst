@@ -1,0 +1,6 @@
+pageObj\LoginPage.class
+automation\Practise_Project1\TestBase.class
+automation\Practise_Project1\ReadTestData.class
+pageObj\LandingPage.class
+automation\Practise_Project1\App.class
+automation\Practise_Project1\DataBase_conn.class

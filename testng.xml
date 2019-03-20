@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<listeners>
+		<listener class-name="listeners.Listeners" />
+		<listener class-name="extentReports.ExtentReporterNG" />
+	</listeners>
+	<test name="Login Test">
+		<classes>
+			<class name="automation.Practise_Project1.Demo1_Test" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Assert Test">
+		<classes>
+			<class name="automation.Practise_Project1.AssertDemo_Test" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="WebDriver using Database">
+		<classes>
+			<class name="automation.Practise_Project1.DB_Test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
